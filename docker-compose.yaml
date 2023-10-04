@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
   sysfoo:
+    platform: linux/amd64
     image: pckt1993/sysfoo:dev
     ports:
       - 8888:8080
