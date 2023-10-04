@@ -2,6 +2,6 @@ version: "3.8"
 
 services:
   sysfoo:
-    image: pckt1993/sysfoo:latest
+    image: pckt1993/sysfoo:dev
     ports:
       - 8888:8080
